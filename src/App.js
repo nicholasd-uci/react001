@@ -3,11 +3,6 @@ import React from 'react'
 import Form from './components/Form'
 import Card from './components/Card'
 
-
-
-
-
-
 const App = () => {
   return (
 // you can make a Div that renders those components only || this is called a sjx fragment <> && </>
@@ -16,7 +11,6 @@ const App = () => {
   {/* this is called a chevron */}
     <Card />
     <Form />
-
   </>
   )
 }
